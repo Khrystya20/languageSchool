@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head itemscope itemtype="http://schema.org/WebSite">
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>German course</title>
+
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body onload="javascript:filtSubject('German')" itemscope itemtype="http://schema.org/WebPage">
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <img src="images/img1.jpg">
+        </div>
+        <div class="mySlides fade">
+            <img src="images/img2.jpg">
+        </div>
+        <div class="mySlides fade">
+            <img src="images/img3.jpg">
+        </div>
+        <div class="mySlides fade">
+            <img src="images/img4.jpg">
+        </div>
+        <div class="mySlides fade">
+            <img src="images/img5.jpg">
+        </div>
+        <div class="mySlides fade">
+            <img src="images/img6.jpg">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+
+    <!--Верхнє меню-->
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Головна</a>
+
+        <div class="vl"></div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Мовні курси</button>
+            <div class="dropdown-content">
+                <a href="englishCourse.html">Англійська мова</a>
+                <a href="germanCourse.html">Німецька мова</a>
+                <a href="frenchCourse.html">Французька мова</a>
+                <a href="spanishCourse.html">Іспанська мова</a>
+            </div>
+        </div>
+
+        <div class="vl"></div>
+
+        <a href="#schedule">Мій розклад</a>
+        <div class="vl"></div>
+  
+        <a href="teachers.html">Викладачі</a>
+        <div class="vl"></div>
+  
+        <a href="aboutschool.html">Про школу</a>
+        <div class="vl"></div>
+        <div class="topnav-right">
+           <div class="vl"></div>
+           <a href="contacts.html">Контакти</a>
+        </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="germanCourse.html">Мовний курс</a></li>
+        <li><a href="#">Німецька</a></li>
+    </ul>
+
+    <!-----------------------------Teachinder--------------------------------------->
+
+    <header>
+        <section class="flex-header-first">
+            <h1>Курс "Німецька мова"</h1>
+        </section>
+
+        <section class="flex-header">
+            <nav class="navbar">
+                <a href="#about_course">Про курс</a>
+                <a href="#top-teachers">Викладачі</a>
+                <a href="#statistic">Статистика викладачів</a>
+                <a href="#schedule">Розклад занять</a>
+            </nav>
+        </section>
+
+        <article class="about_course" id="about_course">
+            <section class="flex-text-course">
+                <br><br><br><br>
+                <img src="images/german.jpg">
+                <br><br><br><br>
+
+                <p class=MsoNormal><span style='mso-fareast-language:UK'></span><b>НІМЕЦЬКА ДЛЯ ДІТЕЙ</b>
+                    <o:p></o:p></p>
+
+                <p class=MsoNormal><span style='mso-fareast-language:UK'>Курси німецької для
+                    дітей та підлітків (від 6 до 17 років) на основі комунікативної методики
+                    дозволяють зануритися в німецькомовне середовище. Кваліфіковані та талановиті
+                    викладачі зацікавлюють, мотивують до вивчення німецької та допомагають досягати
+                    успішних результатів на міжнародних іспитах та ЗНО. Наші учні завжди мають
+                    впевненість у своїх знаннях, а їх батьки можуть довірити нам німецьку своєї
+                    дитини.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><b>ЗАГАЛЬНА НІМЕЦЬКА ДЛЯ ДІТЕЙ 6-10 РОКІВ<o:p></o:p></b></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Заняття на
+                    загальному&nbsp;курсі німецької для дітей 6-10 років не тільки розвивають мовні
+                    здібності дитини, а й формують її як особистість.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Діти, що навчаються в
+                    ILS, із задоволенням відвідують заняття та чекають на них, адже наші викладачі
+                    заохочують їх прояви креативності, сміливості та допитливості.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Професійні викладачі
+                    ILS мають кваліфікацію для роботи з дітьми та працюють на основі комунікативної
+                    методики, яка допомагає дитині різнобічно осягнути матеріал та зануритися в
+                    німецькомовне середовище, уникаючи неусвідомленого заучування.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Курси німецької для
+                    дітей розроблені таким чином, що дитина не буде відчувати себе перевантаженою.
+                    Навчання відбувається в ігровій формі, яка залучає довільну та мимовільну увагу
+                    до розвитку:<o:p></o:p></span></p>
+                    
+                    <p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l2 level1 lfo1'><![if !supportLists]><span
+                    style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+                    Symbol;mso-fareast-language:UK'><span style='mso-list:Ignore'>·<span
+                    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span></span><![endif]><span style='mso-fareast-language:UK'>вільної
+                    розмовної німецької<o:p></o:p></span></p>
+                    
+                    <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l2 level1 lfo1'><![if !supportLists]><span
+                    style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+                    Symbol;mso-fareast-language:UK'><span style='mso-list:Ignore'>·<span
+                    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span></span><![endif]><span style='mso-fareast-language:UK'>впевненої
+                    граматики<o:p></o:p></span></p>
+                    
+                    <p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;mso-list:l2 level1 lfo1'><![if !supportLists]><span
+                    style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+                    Symbol;mso-fareast-language:UK'><span style='mso-list:Ignore'>·<span
+                    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span></span><![endif]><span style='mso-fareast-language:UK'>навичок
+                    читання та письма.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>В ILS немає класичних
+                    оцінок, що дозволяє нам оберігати зону дитячого розвитку від порівняння себе з
+                    іншими. Викладачі підтримують та акцентують увагу дитини на її власному
+                    прогресі, що сприяє формуванню її самооцінки. А батьки завжди можуть дізнатися
+                    про успіхи дитини в&nbsp;особистому онлайн-кабінеті.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Ми піклуємося про
+                    комфорт навчання дітей, а тому ваша дитина вивчатиме німецьку в групі залежно
+                    від віку та <span class=SpellE>мовного</span> рівня, визначеного за
+                    результатами безкоштовного тестування.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><b>ЗАГАЛЬНА НІМЕЦЬКА ДЛЯ ДІТЕЙ 11-17 РОКІВ<o:p></o:p></b></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Курси німецької для
+                    дітей та підлітків 11-17 років – це можливість ґрунтовного та послідовного
+                    розвитку мовних здібностей дитини. Навчання відбувається за комунікативною
+                    методикою, яка передбачає повне занурення дитини в німецькомовне середовище вже
+                    з перших занять.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Кваліфіковані та
+                    уважні викладачі, кожен з яких має&nbsp;сертифікат, допомагають студентам
+                    розвивати усі необхідні мовні навички та мотивують їх досягати найкращих
+                    результатів.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Завдяки цікавій
+                    навчальній програмі діти з легкістю розвивають навички:<o:p></o:p></span></p>
+                    
+                    <p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+                    style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+                    Symbol;mso-fareast-language:UK'><span style='mso-list:Ignore'>·<span
+                    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span></span><![endif]><span style='mso-fareast-language:UK'>вільної
+                    розмовної німецької;<o:p></o:p></span></p>
+                    
+                    <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+                    style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+                    Symbol;mso-fareast-language:UK'><span style='mso-list:Ignore'>·<span
+                    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span></span><![endif]><span style='mso-fareast-language:UK'>впевненого
+                    використання граматики;<o:p></o:p></span></p>
+                    
+                    <p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+                    style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+                    Symbol;mso-fareast-language:UK'><span style='mso-list:Ignore'>·<span
+                    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span></span><![endif]><span style='mso-fareast-language:UK'>читання та
+                    письма.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Ми пропонуємо навчання
+                    в групі залежно від віку та <span class=SpellE>мовного</span> рівня, який
+                    визначаємо за допомогою&nbsp;безкоштовного тестування, щоб гарантувати дитині
+                    поступовий мовний прогрес у комфортній атмосфері.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Діти у нашій школі не
+                    потребують допомоги батьків під час виконання домашніх завдань з німецької,
+                    адже відчувають впевненість у своїх знаннях.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Ми беремо на себе усю
+                    відповідальність за їх прогрес у вивченні мови, який батьки зможуть
+                    відстежувати в&nbsp;особистому кабінеті&nbsp;на нашому сайті. Окрім цього, за
+                    результатами підсумкового тесту викладачі визначають рекомендований міжнародний
+                    іспит, який зможе вдало скласти ваша дитина.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Для підлітків, які
+                    демонструють високий мовний рівень, наші викладачі рекомендують курси
+                    підготовки до&nbsp;іспитів B2 (FCE), C1 (CAE), C2 (CPE). Тут учні не тільки
+                    опанують мовний рівень від В2 до С2, а й зможуть, за бажанням, скласти
+                    відповідний міжнародний іспит та скористатися знижками, які надає клієнтам
+                    курсів німецької ILS&nbsp;програма лояльності&nbsp;Екзаменаційного центру.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>ПІДГОТОВКА ДО ЄВІ ЗНО
+                    З НІМЕЦЬКОЇ<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Плануєте цього року
+                    вступати до магістратури?<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Рекомендуємо вам
+                    інтенсивний курс підготовки до ЄВІ ЗНО з німецької мови.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span class=SpellE><span style='mso-fareast-language:UK'>International</span></span><span
+                    style='mso-fareast-language:UK'> <span class=SpellE>Language</span> <span
+                    class=SpellE>School</span> є офіційним екзаменаційним центром у Києві (ліцензія
+                    UA 801). З нами ви не тільки зможете підготуватися до іспитів, а й комфортно
+                    скласти їх у нашому&nbsp;екзаменаційному центрі&nbsp;та отримати міжнародний
+                    кембриджський сертифікат.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Окрім беззаперечного
+                    авторитету та визнання освітніми установами і компаніями всього світу,
+                    перевагою сертифікатів є їх необмежений термін дії – отримавши сертифікат, вам
+                    ніколи не доведеться складати іспит повторно.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>ILS набирає групи
+                    підготовки до наступних іспитів:<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>B2&nbsp;(FCE)&nbsp;- підтвердження
+                    рівня B2.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>C1 (CAE)&nbsp;-
+                    підтвердження рівня C1.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>C2 (CPE)&nbsp;-
+                    підтвердження рівня C2.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Підготовкою до іспитів
+                    займаються викладачі, які мають кваліфікацію екзаменаторів і досконало знайомі
+                    з усіма нюансами структури, проведення та оцінювання іспитів. Разом з ними, ви
+                    розберете усі види завдань, які можете зустріти під час іспиту та навчитесь
+                    стратегії їх ефективного виконання, будете писати пробні тести, дуже схожі на
+                    справжні та докладно розберете усі помилки, щоб не повторити їх на іспиті.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Зарахування на курси
+                    підготовки до міжнародних іспитів відбувається на підставі безкоштовного
+                    тестування, що складається з типових завдань іспиту, до якого ви хочете
+                    підготуватися. Для дійсних студентів школи зарахування до групи можливе за
+                    рекомендацією викладача.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><b><span style='mso-font-kerning:18.0pt;mso-fareast-language:
+                    UK'>ПІДГОТОВКА ДО B1 (PET), B2 (FCE), C1 (CAE), C2 (CPE)<o:p></o:p></span></b></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>В ILS діти мають
+                    можливість підготуватися до кембриджських іспитів та скласти їх, адже <span
+                    class=SpellE>International</span> <span class=SpellE>Language</span> <span
+                    class=SpellE>School</span> є офіційним екзаменаційним центром у Києві (ліцензія
+                    UA 800/801).<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Міжнародні іспити з
+                    німецької, розроблені університетом, доступні для дітей від 6 років та
+                    розраховані на будь-який рівень володіння німецькою мовою. Ці іспити визнаються
+                    освітніми установами та міжнародними компаніями усього світу, мають необмежений
+                    термін дії та оцінюють знання ваших дітей у завданнях, наближених до
+                    повсякденних ситуацій.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Наші курси підготовки
+                    до міжнародних іспитів навчать виконувати екзаменаційні завдання, а також
+                    будуть корисні для підвищення загального рівня німецької. ILS набирає групи
+                    підготовки до наступних іспитів:<o:p></o:p></span></p>
+                    
+                    <p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l4 level1 lfo3'><![if !supportLists]><span
+                    style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+                    Symbol;mso-fareast-language:UK'><span style='mso-list:Ignore'>·<span
+                    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span></span><![endif]><span style='mso-fareast-language:UK'>B1 (PET)&nbsp;-&nbsp;підтвердження
+                    рівня B1, результати якого зараховуються як ДПА у 9 класі для спеціалізованих
+                    шкіл&nbsp;чи як ДПА в 11 класі загальноосвітньої школи..<o:p></o:p></span></p>
+                    
+                    <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l4 level1 lfo3'><![if !supportLists]><span
+                    style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+                    Symbol;mso-fareast-language:UK'><span style='mso-list:Ignore'>·<span
+                    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span></span><![endif]><span style='mso-fareast-language:UK'>B2 (FCE)&nbsp;-
+                    підтвердження рівня B2.<o:p></o:p></span></p>
+                    
+                    <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l4 level1 lfo3'><![if !supportLists]><span
+                    style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+                    Symbol;mso-fareast-language:UK'><span style='mso-list:Ignore'>·<span
+                    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span></span><![endif]><span style='mso-fareast-language:UK'>C1 (CAE)&nbsp;-
+                    підтвердження рівня C1.<o:p></o:p></span></p>
+                    
+                    <p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;mso-list:l4 level1 lfo3'><![if !supportLists]><span
+                    style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+                    Symbol;mso-fareast-language:UK'><span style='mso-list:Ignore'>·<span
+                    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span></span><![endif]><span style='mso-fareast-language:UK'>C2 (CPE)&nbsp;-
+                    підтвердження рівня C2.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Готують до іспитів в
+                    ILS ті самі викладачі, які працюють екзаменаторами, тому ніхто краще за них не
+                    розповість про всі тонкощі структури, оцінювання, види завдань та стратегію їх
+                    ефективного виконання та інші деталі, які допоможуть успішно скласти іспит. До
+                    курсу підготовки входять пробні тести, що розроблені на основі завдань іспитів
+                    попередніх років, після яких проводиться ретельна робота над помилками.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>&nbsp;Зарахування на
+                    курси підготовки до міжнародних іспитів відбувається на підставі скороченої
+                    версії пробного тесту для того іспиту, до якого ви хочете підготуватись. Для
+                    дійсних студентів школи зарахування до групи можливе за рекомендацією
+                    викладача.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><b><span style='mso-fareast-language:UK'>НІМЕЦЬКА ДЛЯ
+                    ДОРОСЛИХ<o:p></o:p></span></b></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Класичний академічний
+                    курс вивчення німецької мови на основі комунікативної методики.&nbsp;Незалежно
+                    від того, яку мету ви ставите у вивченні німецької, навчання в ILS допоможе вам
+                    досягти її швидко та ефективно. Вирішили вступати до Німеччини і отримати
+                    доступну якісну європейську освіту, а для здачі міжнародних іспитів з німецької
+                    мови знань не вистачає? Чому б не підвищити мовний рівень на курсах німецької?
+                    Спеціально для бажаючих швидко вивчити мову пропонуємо стандартні та інтенсивні
+                    курси німецької мови.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'><o:p>&nbsp;</o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Залежно від Ваших
+                    побажань, Ви зможете обрати заняття в групах з іноземними студентами чи
+                    співвітчизниками або індивідуальні. До того ж, займатися з репетиторами зможуть
+                    як діти, так і дорослі.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><b><span style='mso-fareast-language:UK'>ЗАГАЛЬНА НІМЕЦЬКА
+                    ДЛЯ ДОРОСЛИХ<o:p></o:p></span></b></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Загальний курс
+                    німецької для дорослих охоплює тренування усіх необхідних мовних навичок, але
+                    ключове значення у ньому відводиться навчанню вільній розмовній німецькій та
+                    комунікації в цілому.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Загальна Німецька – це
+                    ідеальний курс для тих, хто цінує академічність, фундаментальність та
+                    планомірність у вивченні іноземної мови. Ми будуємо навчальний процес за
+                    комунікативною методикою, що гарантує повне занурення в німецькомовне
+                    середовище - студенти говорять німецькою вже з першого заняття.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Досвідчені викладачі,
+                    кожен з яких є тренером для викладачів або сертифікованим
+                    кембриджським&nbsp;екзаменатором, навчають студентів думати та говорити
+                    німецькою.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Ми пропонуємо 7 курсів
+                    загальної німецької від А1 до C1 згідно з міжнародною системою мовних рівнів
+                    CEFR. Завдяки чіткій організації курсу, ми приділяємо увагу розвитку усіх
+                    мовних навичок:<o:p></o:p></span></p>
+                    
+                    <p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l1 level1 lfo4'><![if !supportLists]><span
+                    style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+                    Symbol;mso-fareast-language:UK'><span style='mso-list:Ignore'>·<span
+                    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span></span><![endif]><span style='mso-fareast-language:UK'>Граматики<o:p></o:p></span></p>
+                    
+                    <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l1 level1 lfo4'><![if !supportLists]><span
+                    style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+                    Symbol;mso-fareast-language:UK'><span style='mso-list:Ignore'>·<span
+                    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span></span><![endif]><span style='mso-fareast-language:UK'>Сприйняття
+                    на слух<o:p></o:p></span></p>
+                    
+                    <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l1 level1 lfo4'><![if !supportLists]><span
+                    style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+                    Symbol;mso-fareast-language:UK'><span style='mso-list:Ignore'>·<span
+                    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span></span><![endif]><span style='mso-fareast-language:UK'>Читання<o:p></o:p></span></p>
+                    
+                    <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l1 level1 lfo4'><![if !supportLists]><span
+                    style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+                    Symbol;mso-fareast-language:UK'><span style='mso-list:Ignore'>·<span
+                    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span></span><![endif]><span style='mso-fareast-language:UK'>Говоріння<o:p></o:p></span></p>
+                    
+                    <p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;mso-list:l1 level1 lfo4'><![if !supportLists]><span
+                    style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+                    Symbol;mso-fareast-language:UK'><span style='mso-list:Ignore'>·<span
+                    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span></span><![endif]><span style='mso-fareast-language:UK'>Письма.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Проходження курсу
+                    гарантує кожному студенту помітний прогрес у спілкуванні німецькою.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Один <span
+                    class=SpellE>мовний</span> рівень <span class=SpellE>опановується</span> за 3
+                    або&nbsp;4 семестри&nbsp;(1 семестр - 6 тижнів), залежно від рівня.&nbsp;Якщо
+                    ви приєднуєтесь до навчання після початку семестру, то не сплачуєте за заняття,
+                    які вже відбулися.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Запишіться на
+                    безкоштовне тестування, щоб наші викладачі максимально точно визначили ваш
+                    поточний <span class=SpellE>мовний</span> рівень та <span class=SpellE>зануртеся</span>
+                    у вивчення німецької.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Під час навчання в
+                    групах загальної німецької для дорослих, усі клієнти ILS мають
+                    можливість&nbsp;безкоштовно&nbsp;відвідувати&nbsp;Розмовні клуби!<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><b><span style='mso-fareast-language:UK'>НІМЕЦЬКИЙ ІНТЕНСИВ<o:p></o:p></span></b></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Інтенсивні курси
+                    розмовної німецької в ILS - ваша можливість за короткий час зруйнувати мовний
+                    бар'єр, відчути впевненість в своїх розмовних навичках та почати спілкуватись
+                    німецькою.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Німецький <span
+                    class=SpellE>інтенсив</span> в ILS - це дуже спекотна пропозиція, адже одна
+                    година німецької коштує як філіжанка кави!<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Чому така ціна курсу?<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span class=SpellE><span style='mso-fareast-language:UK'>International</span></span><span
+                    style='mso-fareast-language:UK'> <span class=SpellE>Language</span> <span
+                    class=SpellE>School</span> є відкритим авторизованим центром складання
+                    міжнародних іспитів та центром підвищення кваліфікації вчителів німецької.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Тренінговий центр для
+                    вчителів ILS проводить навчання за програмою підвищення кваліфікації викладачів
+                    німецької&nbsp;CELTA.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>В рамках цієї програми
+                    вчителі опановують навички викладання німецької мови на основі комунікативної
+                    методики і проводять свої уроки для студентів нашої школи. Звертаємо вашу
+                    увагу, що курс спрямований на досягнення впевненості у спілкуванні, розширення
+                    словникового запасу та повторення граматичних конструкцій в межах вашого <span
+                    class=SpellE>мовного</span> рівня.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Переваги&nbsp; <span
+                    class=SpellE>інтенсиву</span>:<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal style='margin-left:35.4pt'><span style='mso-fareast-language:
+                    UK'>1. граматика, аудіювання, читання - увага до всіх аспектів мовних навичок;<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal style='margin-left:35.4pt'><span style='mso-fareast-language:
+                    UK'>2. щоденна практика німецької за ціною філіжанки кави;<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal style='margin-left:35.4pt'><span style='mso-fareast-language:
+                    UK'>3. викладачі по черзі проводять 3 уроки протягом одного заняття;<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal style='margin-left:35.4pt'><span style='mso-fareast-language:
+                    UK'>4. жодних підручників та домашніх завдань<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Цього року ILS
+                    запускає літні <span class=SpellE>інтенсиви</span> одразу у двох форматах: <span
+                    class=SpellE>офлайн</span> та онлайн. Тож <span class=SpellE>обирайти</span>
+                    зручний для вас варіант навчання!<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+                    
+                    <p class=MsoNormal><b><span style='mso-fareast-language:UK'>РОЗМОВНІ КЛУБИ ДЛЯ
+                    ДОРОСЛИХ<o:p></o:p></span></b></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Запрошуємо відвідати
+                    розмовні клуби в ILS з носіями німецької мови.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><b><span style='mso-fareast-language:UK'>ДІЛОВА НІМЕЦЬКА:
+                    БІЗНЕС-КУРС<o:p></o:p></span></b></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Це серія ділових
+                    розмовних воркшопів, спрямованих на те, щоб не лише збагатити ваш словниковий
+                    запас, а й допомогти розвинути найбільш необхідні бізнес-навички, такі як:
+                    ведення ділових перемовин, створення та проведення презентацій, поводження в
+                    делікатних ситуаціях у діловому середовищі та багато інших.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Потрібна Німецька для
+                    ділової комунікації? Покращуйте рівень вашої ділової німецької та розвивайте
+                    найбільш необхідні бізнес-навички одночасно.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Курс – ідеальне
+                    рішення для тих, хто:<o:p></o:p></span></p>
+                    
+                    <p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l3 level1 lfo5'><![if !supportLists]><span
+                    style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+                    Symbol;mso-fareast-language:UK'><span style='mso-list:Ignore'>·<span
+                    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span></span><![endif]><span style='mso-fareast-language:UK'>бажає
+                    побудувати кар'єру в міжнародній компанії;<o:p></o:p></span></p>
+                    
+                    <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l3 level1 lfo5'><![if !supportLists]><span
+                    style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+                    Symbol;mso-fareast-language:UK'><span style='mso-list:Ignore'>·<span
+                    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span></span><![endif]><span style='mso-fareast-language:UK'>часто
+                    спілкується з іноземними партнерами або клієнтами;<o:p></o:p></span></p>
+                    
+                    <p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;mso-list:l3 level1 lfo5'><![if !supportLists]><span
+                    style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+                    Symbol;mso-fareast-language:UK'><span style='mso-list:Ignore'>·<span
+                    style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span></span><![endif]><span style='mso-fareast-language:UK'>готується
+                    до закордонного відрядження чи еміграції.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>В результаті
+                    проходження курсу ви розширите словниковий запас та опануєте ділову лексику для
+                    розвитку бізнесу, проходження співбесіди, ведення ділових перемовин, створення
+                    та проведення презентацій, поводження в делікатних ситуаціях у діловому
+                    середовищі та багато іншого.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+                    
+                    <p class=MsoNormal><b><span style='mso-fareast-language:UK'>ІНДИВІДУАЛЬНІ
+                    ЗАНЯТТЯ<o:p></o:p></span></b></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Запишіться на
+                    індивідуальні заняття з кваліфікованим викладачем в ILS.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Пропонуємо вам
+                    індивідуальні уроки&nbsp;німецької з кваліфікованими CELTA/<span class=SpellE>Delta</span>
+                    викладачами. Ми працюємо на основі комунікативної методики, а це значить, що
+                    вже на першому занятті ви будете користуватися лише німецькою мовою. Весь новий
+                    матеріал викладач буде роз'яснювати, спираючись на вже відому вам лексику та
+                    знайомий контекст.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Залежно від ваших цілей,
+                    ви можете обрати індивідуальні уроки, спрямовані на покращення загального рівня
+                    німецької або на підготовку до іспитів.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><b><span style='mso-fareast-language:UK'>ЗАГАЛЬНА
+                    НІМЕЦЬКА-ОНЛАЙН<o:p></o:p></span></b></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Курс загальної
+                    німецької онлайн - це комфортне навчання, що поєднує всі аспекти вивчення мови
+                    та дозволяє вам приєднуватися до групових занять з дому чи офісу.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Постійно намагаєтеся
+                    оптимізувати свій особистий графік так, щоб знаходити час на німецьку?<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>У нас є рішення –
+                    загальна Німецька в групі повністю онлайн! Покращуйте свій рівень, залишаючись
+                    вдома чи в офісі та не витрачаючи час на дорогу.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Онлайн-заняття з ILS
+                    проходять на платформі <span class=SpellE>Zoom</span> і поєднують всі
+                    активності звичайного уроку. Тут викладач має можливість ділити студентів на
+                    пари та групи, робити записи для студентів на інтерактивній дошці, вмикати відео-
+                    та <span class=SpellE>аудіозавдання</span> тощо.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Вам для заняття
+                    достатньо мати комп'ютер, ноутбук чи планшет та перейти за посиланням, яке ви
+                    отримаєте від свого викладача.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Все це дозволяє вам
+                    так само ефективно досягати нових результатів та покращувати німецьку у
+                    комфортній для вас атмосфері.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Кожен курс – це 4
+                    семестри, за які ви опановуєте один мовний рівень німецької від А2 до C1, що
+                    відповідає<span style='mso-spacerun:yes'>  </span>міжнародній системі мовних
+                    рівнів CEFR. Програма навчання поєднує гармонійний розвиток усіх мовних
+                    навичок: граматику, сприйняття на слух, читання, говоріння, письмо.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>КОРПОРАТИВНА НІМЕЦЬКА<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='mso-fareast-language:UK'>Отримайте
+                    корпоративний курс або тренінг з німецької мови, що відповідає міжнародним
+                    стандартам якості та Вашим потребам.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><span style='color:#547508;mso-fareast-language:UK'>*&nbsp;</span><span
+                    style='mso-fareast-language:UK'>У разі посилення карантинних заходів навчання
+                    буде переведено в&nbsp;онлайн формат.<o:p></o:p></span></p>
+                    
+                    <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+
+            </section>
+        </article>
+
+    </header>
+
+    <main>
+        <article class="top-teachers" id="top-teachers">
+            <header class="article-header">
+                <hr />
+                <h2>Викладачі</h2>
+            </header>
+
+            <section class="flex-search">
+                <div class="search-options">
+    
+                    <input type="radio" id="search-name" name="search-radio" value="name" required />
+                    <label for="search-name">Ім'я</label>
+    
+    
+                    <input type="radio" id="search-age" name="search-radio" value="name" required />
+                    <label for="search-age">Вік</label>
+    
+    
+                    <input type="radio" id="search-rating" name="search-radio" value="note" required />
+                    <label for="search-rating">Рейтинг</label>
+                    <br>
+                    <br>
+    
+                </div>
+                <form class="search-form" name="search-from" id="search-field">
+                    <input type="search" id="search" name="search" placeholder="Enter name to search"
+                        aria-label="Search through site content" /><button class="btn-search" type="button">Шукати</button>
+                </form>
+            </section>
+
+
+            <section class="filter">
+                <label> Фільтрація: </label>
+                <div id="filter-gender" class="filtration">
+                    <span> Стать: </span>
+                    <select id="gender-filter" class="form-control">
+                        <option value="All">Всі</option>
+                        <option value="Female">Жінки</option>
+                        <option value="Male">Чоловіки</option>
+                    </select>
+                </div>
+                <div id="filter-age" class="filtration">
+                    <span> Мінімальний вік: </span>
+                    <input type="number" id="age-min-filter" value="18" min="18" max="100" step="1" />
+                    <span> Максимальний вік: </span>
+                    <input type="number" id="age-max-filter" value="100" min="18" max="100" step="1" />
+                </div>
+
+
+                <div id="filter-rate" class="filtration">
+                    <span> Рейтинг від </span>
+                    <input type="number" id="rating-filter" value="1" min="1" max="10" step="1" />
+                    <span> балів </span>
+                </div>
+
+                <div id="filter-experience" class="filtration">
+                    <span> Досвід від </span>
+                    <input type="number" id="experience-filter" value="1" min="1" max="50" step="1" />
+                    <span> років </span>
+                </div>
+            </section>
+            <section class="grid-5-teachers"></section>
+        </article>
+
+        <article class="statistic" id="statistic">
+            <header class="article-header">
+                <hr />
+                <h2>Статистика викладачів</h2>
+            </header>
+            <section class="statistics-table-section">
+                <input type="checkbox" id="sort-dir" hidden />
+                <table class="statistics-table">
+                    <thead>
+                        <tr id="table-header">
+                            <th id="table-name">ПІБ</th>
+                            <th id="table-age">Вік</th>
+                            <th id="table-gender">Стать</th>
+                            <th id="table-experience">Досвід</th>
+                            <th id="table-rating">Рейтинг</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <div class="pagination" id="pagination"></div>
+            </section>
+        </article>
+        <article class="schedule" id="schedule">
+            <header class="article-header">
+                <hr />
+                <h2>Розклад занять</h2>
+            </header>
+            <section class="germanCourse-schedule">
+
+                <table class="schedule-table">
+                    <tr>
+                        <td><br>
+                            <b>День</b></br>
+                        </td>
+                        <td>
+                            <b>9:00-11:00</b>
+                        </td>
+                        <td>
+                            <b>11:00-13:00</b>
+                        </td>
+                        <td>
+                            <b>13:00-15:00</b>
+                        </td>
+                        <td>
+                            <b>15:00-17:00</b>
+                        </td>
+                        <td>
+                            <b>17:00-19:00</b>
+                        </td>
+                        <td>
+                            <b>19:00-21:00</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Понеділок</b>
+                        </td>
+                        <td></td>
+                        <td>Німецька (індивідуальне заняття)</td>
+                        <td>Німецька (групове заняття)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Вівторок</b>
+                        </td>
+                        <td></td>
+                        <td>Німецька (індивідуальне заняття)</td>
+                        <td>Німецька (індивідуальне заняття)</td>
+                        <td>Німецька (групове заняття)</td>
+                        <td></td>
+                        <td>Німецька (індивідуальне заняття)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Середа</b>
+                        </td>
+                        <td>Німецька (індивідуальне заняття)</td>
+                        <td>Німецька (індивідуальне заняття)</td>
+                        <td></td>
+                        <td></td>
+                        <td>Німецька (індивідуальне заняття)</td>
+                        <td>Німецька (групове заняття)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Четвер</b>
+                        </td>
+                        <td>Німецька (групове заняття)</td>
+                        <td></td>
+                        <td></td>
+                        <td>Німецька (індивідуальне заняття)</td>
+                        <td></td>
+                        <td>Німецька (індивідуальне заняття)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>П'ятниця</b>
+                        </td>
+                        <td>Німецька (індивідуальне заняття)</td>
+                        <td>Німецька (групове заняття)</td>
+                        <td></td>
+                        <td>Німецька (індивідуальне заняття)</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+
+
+            </section>
+        </article>
+
+        <header class="article-header">
+            <hr />
+        </header>
+    </main>
+    <footer>
+        <section class="flex-header">
+            <nav class="navbar">
+                <a href="#about_course">Про курс</a>
+                <a href="#top-teachers">Викладачі</a>
+                <a href="#statistic">Статистика викладачів</a>
+                <a href="#schedule">Розклад занять</a>
+            </nav>
+        </section>
+    </footer>
+
+    <div class="overlay" id="teacher-info">
+        <form class="popup" action="/">
+            <a class="close" href="#">&times;</a>
+            <h1>Інформація про викладача</h1>
+            <img id="teach-pic" src="" alt="Teacher`s picture" />
+            <div class="text">
+                <h2>Mykyta Makeev</h2>
+                <p id="pop-age-gend">36, M</p>
+                <p id="pop-subject">English</p>
+                <p id="pop-exp">10</p>
+                <p id="pop-rating">8</p>
+
+                <p id="pop-email">
+                    <a href="mailto:mykyta.makeev@domain.com">mykyta.makeev@domain.com</a>
+                </p>
+                <p id="pop-tel">+380999910043</p>
+            </div>
+            <div class="clear-fix"></div>
+            <div class="text">
+                <p id="pop-bd"></p>
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript" src="js\lab4.js"></script>
+    <script type="text/javascript" src="js\app.js"></script>
+</body>
+
+</html>

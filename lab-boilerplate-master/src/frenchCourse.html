@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head itemscope itemtype="http://schema.org/WebSite">
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>French course</title>
+
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body onload="javascript:filtSubject('French')" itemscope itemtype="http://schema.org/WebPage">
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <img src="images/img1.jpg">
+        </div>
+        <div class="mySlides fade">
+            <img src="images/img2.jpg">
+        </div>
+        <div class="mySlides fade">
+            <img src="images/img3.jpg">
+        </div>
+        <div class="mySlides fade">
+            <img src="images/img4.jpg">
+        </div>
+        <div class="mySlides fade">
+            <img src="images/img5.jpg">
+        </div>
+        <div class="mySlides fade">
+            <img src="images/img6.jpg">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+
+    <!--Верхнє меню-->
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Головна</a>
+
+        <div class="vl"></div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Мовні курси</button>
+            <div class="dropdown-content">
+                <a href="englishCourse.html">Англійська мова</a>
+                <a href="germanCourse.html">Німецька мова</a>
+                <a href="frenchCourse.html">Французька мова</a>
+                <a href="spanishCourse.html">Іспанська мова</a>
+            </div>
+        </div>
+
+        <div class="vl"></div>
+
+        <a href="#schedule">Мій розклад</a>
+        <div class="vl"></div>
+  
+        <a href="teachers.html">Викладачі</a>
+        <div class="vl"></div>
+  
+        <a href="aboutschool.html">Про школу</a>
+        <div class="vl"></div>
+        <div class="topnav-right">
+           <div class="vl"></div>
+           <a href="contacts.html">Контакти</a>
+        </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="frenchCourse.html">Мовний курс</a></li>
+        <li><a href="#">Французька</a></li>
+    </ul>
+
+    <!-----------------------------Teachinder--------------------------------------->
+
+    <header>
+        <section class="flex-header-first">
+            <h1>Курс "Французька мова"</h1>
+        </section>
+
+        <section class="flex-header">
+            <nav class="navbar">
+                <a href="#about_course">Про курс</a>
+                <a href="#top-teachers">Викладачі</a>
+                <a href="#statistic">Статистика викладачів</a>
+                <a href="#schedule">Розклад занять</a>
+            </nav>
+        </section>
+
+        <article class="about_course" id="about_course">
+            <section class="flex-text-course">
+                <br><br><br><br>
+                <img src="images/french.jpg">
+                <br><br><br><br>
+
+                <p class=MsoNormal><b>ФРАНЦУЗЬКА
+                    ДЛЯ ДІТЕЙ</b></p>
+                    
+                    <p class=MsoNormal>Курси Французької для дітей та підлітків (від 6 до 17 років)
+                    на основі комунікативної методики дозволяють зануритися в французькомовне
+                    середовище. Кваліфіковані та талановиті викладачі зацікавлюють, мотивують до
+                    вивчення Французької та допомагають досягати успішних результатів на
+                    міжнародних іспитах та ЗНО. Наші учні завжди мають впевненість у своїх знаннях,
+                    а їх батьки можуть довірити нам Французьку своєї дитини.</p>
+                    
+                    <p class=MsoNormal><b>ЗАГАЛЬНА ФРАНЦУЗЬКА ДЛЯ ДІТЕЙ 6-10 РОКІВ</b></p>
+                    
+                    <p class=MsoNormal>Заняття на загальному&nbsp;курсі Французької для дітей 6-10
+                    років не тільки розвивають мовні здібності дитини, а й формують її як
+                    особистість.</p>
+                    
+                    <p class=MsoNormal>Діти, що навчаються в ILS, із задоволенням відвідують
+                    заняття та чекають на них, адже наші викладачі заохочують їх прояви
+                    креативності, сміливості та допитливості.</p>
+                    
+                    <p class=MsoNormal>Професійні викладачі ILS мають кваліфікацію для роботи з
+                    дітьми та працюють на основі комунікативної методики, яка допомагає дитині
+                    різнобічно осягнути матеріал та зануритися в французькомовне середовище,
+                    уникаючи неусвідомленого заучування.</p>
+                    
+                    <p class=MsoNormal>Курси Французької для дітей розроблені таким чином, що
+                    дитина не буде відчувати себе перевантаженою. Навчання відбувається в ігровій
+                    формі, яка залучає довільну та мимовільну увагу до розвитку:</p>
+                    
+                    <p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+                    style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span>вільної розмовної Французької</p>
+                    
+                    <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+                    style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span>впевненої граматики</p>
+                    
+                    <p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span
+                    style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span>навичок читання та письма.</p>
+                    
+                    <p class=MsoNormal>В ILS немає класичних оцінок, що дозволяє нам оберігати зону
+                    дитячого розвитку від порівняння себе з іншими. Викладачі підтримують та
+                    акцентують увагу дитини на її власному прогресі, що сприяє формуванню її
+                    самооцінки. А батьки завжди можуть дізнатися про успіхи дитини
+                    в&nbsp;особистому онлайн-кабінеті.</p>
+                    
+                    <p class=MsoNormal>Ми піклуємося про комфорт навчання дітей, а тому ваша дитина
+                    вивчатиме Французьку в групі залежно від віку та мовного рівня, визначеного за
+                    результатами безкоштовного тестування.</p>
+                    
+                    <p class=MsoNormal><b>ЗАГАЛЬНА ФРАНЦУЗЬКА ДЛЯ ДІТЕЙ 11-17 РОКІВ</b></p>
+                    
+                    <p class=MsoNormal>Курси Французької для дітей та підлітків 11-17 років – це
+                    можливість ґрунтовного та послідовного розвитку мовних здібностей дитини.
+                    Навчання відбувається за комунікативною методикою, яка передбачає повне
+                    занурення дитини в французькомовне середовище вже з перших занять.</p>
+                    
+                    <p class=MsoNormal>Кваліфіковані та уважні викладачі, кожен з яких
+                    має&nbsp;сертифікат, допомагають студентам розвивати усі необхідні мовні
+                    навички та мотивують їх досягати найкращих результатів.</p>
+                    
+                    <p class=MsoNormal>Завдяки цікавій навчальній програмі діти з легкістю
+                    розвивають навички:</p>
+                    
+                    <p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+                    style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span>вільної розмовної французької;</p>
+                    
+                    <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+                    style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span>впевненого використання граматики;</p>
+                    
+                    <p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span
+                    style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span>читання та письма.</p>
+                    
+                    <p class=MsoNormal>Ми пропонуємо навчання в групі залежно від віку та мовного
+                    рівня, який визначаємо за допомогою&nbsp;безкоштовного тестування, щоб
+                    гарантувати дитині поступовий мовний прогрес у комфортній атмосфері.</p>
+                    
+                    <p class=MsoNormal>Діти у нашій школі не потребують допомоги батьків під час
+                    виконання домашніх завдань з французької, адже відчувають впевненість у своїх
+                    знаннях.</p>
+                    
+                    <p class=MsoNormal>Ми беремо на себе усю відповідальність за їх прогрес у
+                    вивченні мови, який батьки зможуть відстежувати в&nbsp;особистому
+                    кабінеті&nbsp;на нашому сайті. Окрім цього, за результатами підсумкового тесту
+                    викладачі визначають рекомендований міжнародний іспит, який зможе вдало скласти
+                    ваша дитина.</p>
+                    
+                    <p class=MsoNormal>Для підлітків, які демонструють високий мовний рівень, наші
+                    викладачі рекомендують курси підготовки до&nbsp;іспитів B2 (FCE), C1 (CAE), C2
+                    (CPE). Тут учні не тільки опанують мовний рівень від В2 до С2, а й зможуть, за
+                    бажанням, скласти відповідний міжнародний іспит та скористатися знижками, які
+                    надає клієнтам курсів французької ILS&nbsp;програма
+                    лояльності&nbsp;Екзаменаційного центру.</p>
+                    
+                    <p class=MsoNormal>ПІДГОТОВКА ДО ЄВІ ЗНО З ФРАНЦУЗЬКОЇ</p>
+                    
+                    <p class=MsoNormal>Плануєте цього року вступати до магістратури?</p>
+                    
+                    <p class=MsoNormal>Рекомендуємо вам інтенсивний курс підготовки до ЄВІ ЗНО з французької
+                    мови.</p>
+                    
+                    <p class=MsoNormal>International Language <span lang=EN-US>School</span> є
+                    офіційним екзаменаційним центром у Києві (ліцензія UA 801). З нами ви не тільки
+                    зможете підготуватися до іспитів, а й комфортно скласти їх у нашому&nbsp;екзаменаційному
+                    центрі&nbsp;та отримати міжнародний кембриджський сертифікат.</p>
+                    
+                    <p class=MsoNormal>Окрім беззаперечного авторитету та визнання освітніми
+                    установами і компаніями всього світу, перевагою сертифікатів є їх необмежений
+                    термін дії – отримавши сертифікат, вам ніколи не доведеться складати іспит
+                    повторно.</p>
+                    
+                    <p class=MsoNormal>ILS набирає групи підготовки до наступних іспитів:</p>
+                    
+                    <p class=MsoNormal>B2&nbsp;(FCE)&nbsp;- підтвердження рівня B2.</p>
+                    
+                    <p class=MsoNormal>C1 (CAE)&nbsp;- підтвердження рівня C1.</p>
+                    
+                    <p class=MsoNormal>C2 (CPE)&nbsp;- підтвердження рівня C2.</p>
+                    
+                    <p class=MsoNormal>Підготовкою до іспитів займаються викладачі, які мають
+                    кваліфікацію екзаменаторів і досконало знайомі з усіма нюансами структури,
+                    проведення та оцінювання іспитів. Разом з ними, ви розберете усі види завдань,
+                    які можете зустріти під час іспиту та навчитесь стратегії їх ефективного
+                    виконання, будете писати пробні тести, дуже схожі на справжні та докладно
+                    розберете усі помилки, щоб не повторити їх на іспиті.</p>
+                    
+                    <p class=MsoNormal>Зарахування на курси підготовки до міжнародних іспитів
+                    відбувається на підставі безкоштовного тестування, що складається з типових
+                    завдань іспиту, до якого ви хочете підготуватися. Для дійсних студентів школи
+                    зарахування до групи можливе за рекомендацією викладача.</p>
+                    
+                    <p class=MsoNormal><b>ПІДГОТОВКА ДО B1 (PET), B2 (FCE), C1 (CAE), C2 (CPE)</b></p>
+                    
+                    <p class=MsoNormal>В ILS діти мають можливість підготуватися до кембриджських
+                    іспитів та скласти їх, адже International Language <span lang=EN-US>School</span>
+                    є офіційним екзаменаційним центром у Києві (ліцензія UA 800/801).</p>
+                    
+                    <p class=MsoNormal>Міжнародні іспити з французької, розроблені університетом,
+                    доступні для дітей від 6 років та розраховані на будь-який рівень володіння Французькою
+                    мовою. Ці іспити визнаються освітніми установами та міжнародними компаніями
+                    усього світу, мають необмежений термін дії та оцінюють знання ваших дітей у
+                    завданнях, наближених до повсякденних ситуацій.</p>
+                    
+                    <p class=MsoNormal>Наші курси підготовки до міжнародних іспитів навчать
+                    виконувати екзаменаційні завдання, а також будуть корисні для підвищення
+                    загального рівня французької. ILS набирає групи підготовки до наступних
+                    іспитів:</p>
+                    
+                    <p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+                    style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span>B1 (PET)&nbsp;-&nbsp;підтвердження рівня B1, результати якого
+                    зараховуються як ДПА у 9 класі для спеціалізованих шкіл&nbsp;чи як ДПА в 11
+                    класі загальноосвітньої школи..</p>
+                    
+                    <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+                    style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span>B2 (FCE)&nbsp;- підтвердження рівня B2.</p>
+                    
+                    <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+                    style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span>C1 (CAE)&nbsp;- підтвердження рівня C1.</p>
+                    
+                    <p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span
+                    style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span>C2 (CPE)&nbsp;- підтвердження рівня C2.</p>
+                    
+                    <p class=MsoNormal>Готують до іспитів в ILS ті самі викладачі, які працюють
+                    екзаменаторами, тому ніхто краще за них не розповість про всі тонкощі
+                    структури, оцінювання, види завдань та стратегію їх ефективного виконання та
+                    інші деталі, які допоможуть успішно скласти іспит. До курсу підготовки входять
+                    пробні тести, що розроблені на основі завдань іспитів попередніх років, після
+                    яких проводиться ретельна робота над помилками.</p>
+                    
+                    <p class=MsoNormal>&nbsp;Зарахування на курси підготовки до міжнародних іспитів
+                    відбувається на підставі скороченої версії пробного тесту для того іспиту, до
+                    якого ви хочете підготуватись. Для дійсних студентів школи зарахування до групи
+                    можливе за рекомендацією викладача.</p>
+                    
+                    <p class=MsoNormal><b>ФРАНЦУЗЬКА ДЛЯ ДОРОСЛИХ</b></p>
+                    
+                    <p class=MsoNormal>Класичний академічний курс вивчення французької мови на
+                    основі комунікативної методики.&nbsp;Незалежно від того, яку мету ви ставите у
+                    вивченні французької, навчання в ILS допоможе вам досягти її швидко та
+                    ефективно.</p>
+                    
+                    <p class=MsoNormal><b>ЗАГАЛЬНА ФРАНЦУЗЬКА ДЛЯ ДОРОСЛИХ</b></p>
+                    
+                    <p class=MsoNormal>Загальний курс французької для дорослих охоплює тренування
+                    усіх необхідних мовних навичок, але ключове значення у ньому відводиться
+                    навчанню вільній розмовній Французькій та комунікації в цілому.</p>
+                    
+                    <p class=MsoNormal>Загальна Французька – це ідеальний курс для тих, хто цінує
+                    академічність, фундаментальність та планомірність у вивченні іноземної мови. Ми
+                    будуємо навчальний процес за комунікативною методикою, що гарантує повне
+                    занурення в французькомовне середовище - студенти говорять Французькою вже з
+                    першого заняття.</p>
+                    
+                    <p class=MsoNormal>Досвідчені викладачі, кожен з яких є тренером для викладачів
+                    або сертифікованим кембриджським&nbsp;екзаменатором, навчають студентів думати
+                    та говорити Французькою.</p>
+                    
+                    <p class=MsoNormal>Ми пропонуємо 7 курсів загальної французької від А1 до C1
+                    згідно з міжнародною системою мовних рівнів CEFR. Завдяки чіткій організації
+                    курсу, ми приділяємо увагу розвитку усіх мовних навичок:</p>
+                    
+                    <p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+                    style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span>Граматики</p>
+                    
+                    <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+                    style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span>Сприйняття на слух</p>
+                    
+                    <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+                    style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span>Читання</p>
+                    
+                    <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+                    style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span>Говоріння</p>
+                    
+                    <p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span
+                    style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span>Письма.</p>
+                    
+                    <p class=MsoNormal>Проходження курсу гарантує кожному студенту помітний прогрес
+                    у спілкуванні Французькою.</p>
+                    
+                    <p class=MsoNormal>Один мовний рівень опановується за 3 або&nbsp;4
+                    семестри&nbsp;(1 семестр - 6 тижнів), залежно від рівня.&nbsp;Якщо ви
+                    приєднуєтесь до навчання після початку семестру, то не сплачуєте за заняття,
+                    які вже відбулися.</p>
+                    
+                    <p class=MsoNormal>Запишіться на безкоштовне тестування, щоб наші викладачі
+                    максимально точно визначили ваш поточний мовний рівень та зануртеся у вивчення французької.</p>
+                    
+                    <p class=MsoNormal>Під час навчання в групах загальної французької для
+                    дорослих, усі клієнти ILS мають
+                    можливість&nbsp;безкоштовно&nbsp;відвідувати&nbsp;Розмовні клуби!</p>
+                    
+                    <p class=MsoNormal><b>ФРАНЦУЗЬКИЙ ІНТЕНСИВ</b></p>
+                    
+                    <p class=MsoNormal>Інтенсивні курси розмовної французької в ILS - ваша
+                    можливість за короткий час зруйнувати мовний бар'єр, відчути впевненість в
+                    своїх розмовних навичках та почати спілкуватись Французькою.</p>
+                    
+                    <p class=MsoNormal>Французький інтенсив в ILS - це дуже спекотна пропозиція,
+                    адже одна година французької коштує як філіжанка кави!</p>
+                    
+                    <p class=MsoNormal>Чому така ціна курсу?</p>
+                    
+                    <p class=MsoNormal>International Language <span lang=EN-US>School</span> є відкритим
+                    авторизованим центром складання міжнародних іспитів та центром підвищення
+                    кваліфікації вчителів французької.</p>
+                    
+                    <p class=MsoNormal>Тренінговий центр для вчителів ILS проводить навчання за
+                    програмою підвищення кваліфікації викладачів французької&nbsp;CELTA.</p>
+                    
+                    <p class=MsoNormal>В рамках цієї програми вчителі опановують навички викладання
+                    французької мови на основі комунікативної методики і проводять свої уроки для
+                    студентів нашої школи. Звертаємо вашу увагу, що курс спрямований на досягнення
+                    впевненості у спілкуванні, розширення словникового запасу та повторення
+                    граматичних конструкцій в межах вашого мовного рівня.</p>
+                    
+                    <p class=MsoNormal>Переваги&nbsp; інтенсиву:</p>
+                    
+                    <p class=MsoNormal style='margin-left:35.4pt'>1. граматика, аудіювання, читання
+                    - увага до всіх аспектів мовних навичок;</p>
+                    
+                    <p class=MsoNormal style='margin-left:35.4pt'>2. щоденна практика французької
+                    за ціною філіжанки кави;</p>
+                    
+                    <p class=MsoNormal style='margin-left:35.4pt'>3. викладачі по черзі проводять 3
+                    уроки протягом одного заняття;</p>
+                    
+                    <p class=MsoNormal style='margin-left:35.4pt'>4. жодних підручників та домашніх
+                    завдань</p>
+                    
+                    <p class=MsoNormal>Цього року ILS запускає літні інтенсиви одразу у двох
+                    форматах: офлайн та онлайн. Тож обирайти зручний для вас варіант навчання!</p>
+                    
+                    <p class=MsoNormal>&nbsp;</p>
+                    
+                    <p class=MsoNormal><b>РОЗМОВНІ КЛУБИ ДЛЯ ДОРОСЛИХ</b></p>
+                    
+                    <p class=MsoNormal>Запрошуємо відвідати розмовні клуби в ILS з носіями французької
+                    мови.</p>
+                    
+                    <p class=MsoNormal><b>ДІЛОВА ФРАНЦУЗЬКА: БІЗНЕС-КУРС</b></p>
+                    
+                    <p class=MsoNormal>Це серія ділових розмовних воркшопів, спрямованих на те, щоб
+                    не лише збагатити ваш словниковий запас, а й допомогти розвинути найбільш
+                    необхідні бізнес-навички, такі як: ведення ділових перемовин, створення та
+                    проведення презентацій, поводження в делікатних ситуаціях у діловому середовищі
+                    та багато інших.</p>
+                    
+                    <p class=MsoNormal>Потрібна Французька для ділової комунікації? Покращуйте
+                    рівень вашої ділової французької та розвивайте найбільш необхідні
+                    бізнес-навички одночасно.</p>
+                    
+                    <p class=MsoNormal>Курс – ідеальне рішення для тих, хто:</p>
+                    
+                    <p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+                    style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span>бажає побудувати кар'єру в міжнародній компанії;</p>
+                    
+                    <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+                    style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span>часто спілкується з іноземними партнерами або клієнтами;</p>
+                    
+                    <p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span
+                    style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span>готується до закордонного відрядження чи еміграції.</p>
+                    
+                    <p class=MsoNormal>В результаті проходження курсу ви розширите словниковий
+                    запас та опануєте ділову лексику для розвитку бізнесу, проходження співбесіди,
+                    ведення ділових перемовин, створення та проведення презентацій, поводження в
+                    делікатних ситуаціях у діловому середовищі та багато іншого.</p>
+                    
+                    <p class=MsoNormal>&nbsp;</p>
+                    
+                    <p class=MsoNormal><b>ІНДИВІДУАЛЬНІ ЗАНЯТТЯ</b></p>
+                    
+                    <p class=MsoNormal>Запишіться на індивідуальні заняття з кваліфікованим
+                    викладачем в ILS.</p>
+                    
+                    <p class=MsoNormal>Пропонуємо вам індивідуальні уроки&nbsp;французької з
+                    кваліфікованими CELTA/Delta викладачами. Ми працюємо на основі комунікативної
+                    методики, а це значить, що вже на першому занятті ви будете користуватися лише Французькою
+                    мовою. Весь новий матеріал викладач буде роз'яснювати, спираючись на вже відому
+                    вам лексику та знайомий контекст.</p>
+                    
+                    <p class=MsoNormal>Залежно від ваших цілей, ви можете обрати індивідуальні
+                    уроки, спрямовані на покращення загального рівня французької або на підготовку
+                    до іспитів.</p>
+                    
+                    <p class=MsoNormal><b>ЗАГАЛЬНА ФРАНЦУЗЬКА-ОНЛАЙН</b></p>
+                    
+                    <p class=MsoNormal>Курс загальної французької онлайн - це комфортне навчання,
+                    що поєднує всі аспекти вивчення мови та дозволяє вам приєднуватися до групових
+                    занять з дому чи офісу.</p>
+                    
+                    <p class=MsoNormal>Постійно намагаєтеся оптимізувати свій особистий графік так,
+                    щоб знаходити час на Французьку?</p>
+                    
+                    <p class=MsoNormal>У нас є рішення – загальна Французька в групі повністю
+                    онлайн! Покращуйте свій рівень, залишаючись вдома чи в офісі та не витрачаючи
+                    час на дорогу.</p>
+                    
+                    <p class=MsoNormal>Онлайн-заняття з ILS проходять на платформі Zoom і поєднують
+                    всі активності звичайного уроку. Тут викладач має можливість ділити студентів
+                    на пари та групи, робити записи для студентів на інтерактивній дошці, вмикати
+                    відео- та аудіозавдання тощо.</p>
+                    
+                    <p class=MsoNormal>Вам для заняття достатньо мати комп'ютер, ноутбук чи планшет
+                    та перейти за посиланням, яке ви отримаєте від свого викладача.</p>
+                    
+                    <p class=MsoNormal>Все це дозволяє вам так само ефективно досягати нових
+                    результатів та покращувати Французьку у комфортній для вас атмосфері.</p>
+                    
+                    <p class=MsoNormal>Кожен курс – це 4 семестри, за які ви опановуєте один мовний
+                    рівень французької від А2 до C1, що відповідає  міжнародній системі мовних
+                    рівнів CEFR. Програма навчання поєднує гармонійний розвиток усіх мовних
+                    навичок: граматику, сприйняття на слух, читання, говоріння, письмо.</p>
+                    
+                    <p class=MsoNormal>&nbsp;</p>
+                    
+                    <p class=MsoNormal>КОРПОРАТИВНА ФРАНЦУЗЬКА</p>
+                    
+                    <p class=MsoNormal>Отримайте корпоративний курс або тренінг з французької мови,
+                    що відповідає міжнародним стандартам якості та Вашим потребам.</p>
+                    
+                    <p class=MsoNormal><span style='color:#547508'>*&nbsp;</span>У разі посилення
+                    карантинних заходів навчання буде переведено в&nbsp;онлайн формат.</p>
+                    
+                    <p class=MsoNormal>&nbsp;</p>
+
+
+            </section>
+        </article>
+    </header>
+
+    <main>
+        <article class="top-teachers" id="top-teachers">
+            <header class="article-header">
+                <hr />
+                <h2>Викладачі</h2>
+            </header>
+
+            <section class="flex-search">
+                <div class="search-options">
+    
+                    <input type="radio" id="search-name" name="search-radio" value="name" required />
+                    <label for="search-name">Ім'я</label>
+    
+    
+                    <input type="radio" id="search-age" name="search-radio" value="name" required />
+                    <label for="search-age">Вік</label>
+    
+    
+                    <input type="radio" id="search-rating" name="search-radio" value="note" required />
+                    <label for="search-rating">Рейтинг</label>
+                    <br>
+                    <br>
+    
+                </div>
+                <form class="search-form" name="search-from" id="search-field">
+                    <input type="search" id="search" name="search" placeholder="Enter name to search"
+                        aria-label="Search through site content" /><button class="btn-search" type="button">Шукати</button>
+                </form>
+            </section>
+
+            <section class="filter">
+                <label> Фільтрація: </label>
+                <div id="filter-gender" class="filtration">
+                    <span> Стать: </span>
+                    <select id="gender-filter" class="form-control">
+                        <option value="All">Всі</option>
+                        <option value="Female">Жінки</option>
+                        <option value="Male">Чоловіки</option>
+                    </select>
+                </div>
+                <div id="filter-age" class="filtration">
+                    <span> Мінімальний вік: </span>
+                    <input type="number" id="age-min-filter" value="18" min="18" max="100" step="1" />
+                    <span> Максимальний вік: </span>
+                    <input type="number" id="age-max-filter" value="100" min="18" max="100" step="1" />
+                </div>
+
+
+                <div id="filter-rate" class="filtration">
+                    <span> Рейтинг від </span>
+                    <input type="number" id="rating-filter" value="1" min="1" max="10" step="1" />
+                    <span> балів </span>
+                </div>
+
+                <div id="filter-experience" class="filtration">
+                    <span> Досвід від </span>
+                    <input type="number" id="experience-filter" value="1" min="1" max="50" step="1" />
+                    <span> років </span>
+                </div>
+            </section>
+            <section class="grid-5-teachers"></section>
+        </article>
+
+        <article class="statistic" id="statistic">
+            <header class="article-header">
+                <hr />
+                <h2>Статистика викладачів</h2>
+            </header>
+            <section class="statistics-table-section">
+                <input type="checkbox" id="sort-dir" hidden />
+                <table class="statistics-table">
+                    <thead>
+                        <tr id="table-header">
+                            <th id="table-name">ПІБ</th>
+                            <th id="table-age">Вік</th>
+                            <th id="table-gender">Стать</th>
+                            <th id="table-experience">Досвід</th>
+                            <th id="table-rating">Рейтинг</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <div class="pagination" id="pagination"></div>
+            </section>
+        </article>
+        <article class="schedule" id="schedule">
+            <header class="article-header">
+                <hr />
+                <h2>Розклад занять</h2>
+            </header>
+            <section class="frenchCourse-schedule">
+                <table class="schedule-table">
+                    <tr>
+                        <td><br>
+                            <b>День</b></br>
+                        </td>
+                        <td>
+                            <b>9:00-11:00</b>
+                        </td>
+                        <td>
+                            <b>11:00-13:00</b>
+                        </td>
+                        <td>
+                            <b>13:00-15:00</b>
+                        </td>
+                        <td>
+                            <b>15:00-17:00</b>
+                        </td>
+                        <td>
+                            <b>17:00-19:00</b>
+                        </td>
+                        <td>
+                            <b>19:00-21:00</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Понеділок</b>
+                        </td>
+                        <td></td>
+                        <td>Французька (індивідуальне заняття)</td>
+                        <td>Французька (групове заняття)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Вівторок</b>
+                        </td>
+                        <td></td>
+                        <td>Французька (індивідуальне заняття)</td>
+                        <td>Французька (індивідуальне заняття)</td>
+                        <td>Французька (групове заняття)</td>
+                        <td></td>
+                        <td>Французька (індивідуальне заняття)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Середа</b>
+                        </td>
+                        <td>Французька (індивідуальне заняття)</td>
+                        <td>Французька (індивідуальне заняття)</td>
+                        <td></td>
+                        <td></td>
+                        <td>Французька (індивідуальне заняття)</td>
+                        <td>Французька (групове заняття)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Четвер</b>
+                        </td>
+                        <td>Французька (групове заняття)</td>
+                        <td></td>
+                        <td></td>
+                        <td>Французька (індивідуальне заняття)</td>
+                        <td></td>
+                        <td>Французька (індивідуальне заняття)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>П'ятниця</b>
+                        </td>
+                        <td>Французька (індивідуальне заняття)</td>
+                        <td>Французька (групове заняття)</td>
+                        <td></td>
+                        <td>Французька (індивідуальне заняття)</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </section>
+        </article>
+
+        <header class="article-header">
+            <hr />
+        </header>
+    </main>
+    <footer>
+        <section class="flex-header">
+            <nav class="navbar">
+                <a href="#about_course">Про курс</a>
+                <a href="#top-teachers">Викладачі</a>
+                <a href="#statistic">Статистика викладачів</a>
+                <a href="#schedule">Розклад занять</a>
+            </nav>
+        </section>
+    </footer>
+
+    <div class="overlay" id="teacher-info">
+        <form class="popup" action="/">
+            <a class="close" href="#">&times;</a>
+            <h1>Інформація про викладача</h1>
+            <img id="teach-pic" src="" alt="Teacher`s picture" />
+            <div class="text">
+                <h2>Mykyta Makeev</h2>
+                <p id="pop-age-gend">36, M</p>
+                <p id="pop-subject">English</p>
+                <p id="pop-exp">10</p>
+                <p id="pop-rating">8</p>
+
+                <p id="pop-email">
+                    <a href="mailto:mykyta.makeev@domain.com">mykyta.makeev@domain.com</a>
+                </p>
+                <p id="pop-tel">+380999910043</p>
+            </div>
+            <div class="clear-fix"></div>
+            <div class="text">
+                <p id="pop-bd"></p>
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript" src="js\lab4.js"></script>
+    <script type="text/javascript" src="js\app.js"></script>
+</body>
+
+</html>
